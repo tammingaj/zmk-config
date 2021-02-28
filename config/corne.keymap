@@ -25,15 +25,16 @@
                                &kp LALT &kp RET &mo 1 &mo 2 &kp SPACE &kp INS
                         >;
                 };
+
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // |  ESC |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | DEL   |
 // |      |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |       |
-// | SHFT |  +  |  -  |  =  |     |     |   |     |     |  |  |  _  |  \  | C/A/D |
+// | SHFT |  +  |  -  |  =  |     |     |   |     |     | "|" |  _  |  \  | C/A/D |
 //                    |     |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp LS(TAB) &kp EXCL &kp AT    &kp HASH  &kp DLLR  &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR &kp DEL
-   &none       &kp 1    &kp 2     &kp 3     &kp 4     &kp 5       &kp 6     &kp 7     &kp 8           &kp 9     &kp 0    &none
+   &none       &kp N1   &kp N2    &kp N3    &kp N4    &kp N5      &kp N6    &kp N7    &kp N8          &kp N9    &kp N0   &none
    &kp LSHFT   &kp PLUS &kp MINUS &kp EQUAL &none     &none       &none     &none     &kp PIPE        &kp MINUS &kp BSLH &kp LC(LA(DEL))
                                   &none     &none     &trans      &none     &none     &none
                         >;
@@ -46,8 +47,8 @@
 // |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |     |  F7    |  F8    |  F9   |  F10    |  F11   |  F12  |
 //                      | INS  | SHFT |  CTR |     |  trans |        |       |
                         bindings = <
-   &kp TAB &none  &kp gt &kp rbkt  &kp rpar  &kp rbrc  &kp LC(v) &kp home &kp up   &kp end   &kp pg_up &kp BSPC
-   &none   &none  &kp lt &kp lbkt  &kp lpar  &kp lbrc  &kp LC(c) &kp left &kp down &kp right &kp pg_dn &kp LCTRL
+   &kp TAB &none  &kp GT &kp RBKT  &kp RPAR  &kp RBRC  &kp LC(v) &kp HOME &kp UP   &kp END   &kp PG_UP &kp BSPC
+   &none   &none  &kp LT &kp LBKT  &kp LPAR  &kp LBRC  &kp LC(C) &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &kp LCTRL
    &kp F1  &kp F2 &kp F3 &kp F4    &kp F5    &kp F6    &kp F7    &kp F8   &kp F9   &kp F10   &kp F11   &kp F12
                          &kp INS   &kp LSHFT &kp LCTRL &trans    &none    &kp TILDE
                         >;
