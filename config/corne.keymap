@@ -87,15 +87,15 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |      |  >   |  ]   |  )   |  }   |     |  paste |  home  |  up   |  end    |  pgup  | prtsc |
-// |      |      |  <   |  [   |  (   |  {   |     |  copy  |  left  |  down |  right  |  pgdn  | lctrl |
-// |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |     |  F7    |  F8    |  F9   |  F10    |  F11   |  F12  |
-//                      | INS  | SHFT |  CTR |     |  trans |  cut   | tilde |
+// |  TAB | GRAVE |  >   |  ]   |  )   |  }   |     |  paste |  home  |  up   |  end    |  pgup  | prtsc |
+// |      | EURO  |  <   |  [   |  (   |  {   |     |  copy  |  left  |  down |  right  |  pgdn  | lctrl |
+// |  F1  |  F2   |  F3  |  F4  |  F5  |  F6  |     |  F7    |  F8    |  F9   |  F10    |  F11   |  F12  |
+//                       | INS  | SHFT |  CTR |     |  trans |  cut   | tilde |
                         bindings = <
-   &kp TAB &none  &kp GT &kp RBKT  &kp RPAR  &kp RBRC  &kp LC(V) &kp HOME  &kp UP   &kp END   &kp PG_UP &kp PSCRN
-   &none   &none  &kp LT &kp LBKT  &kp LPAR  &kp LBRC  &kp LC(C) &kp LEFT  &kp DOWN &kp RIGHT &kp PG_DN &kp LCTRL
-   &kp F1  &kp F2 &kp F3 &kp F4    &kp F5    &kp F6    &kp F7    &kp F8    &kp F9   &kp F10   &kp F11   &kp F12
-                         &kp INS   &kp LSHFT &kp LCTRL &trans    &kp LC(X) &kp TILDE
+   &kp TAB &kp GRAVE     &kp GT &kp RBKT  &kp RPAR  &kp RBRC  &kp LC(V) &kp HOME  &kp UP   &kp END   &kp PG_UP &kp PSCRN
+   &none   &kp LC(LA(5)) &kp LT &kp LBKT  &kp LPAR  &kp LBRC  &kp LC(C) &kp LEFT  &kp DOWN &kp RIGHT &kp PG_DN &kp LCTRL
+   &kp F1  &kp F2        &kp F3 &kp F4    &kp F5    &kp F6    &kp F7    &kp F8    &kp F9   &kp F10   &kp F11   &kp F12
+                             &kp INS   &kp LSHFT &kp LCTRL &trans    &kp LC(X) &kp TILDE
                         >;
                 };
 
